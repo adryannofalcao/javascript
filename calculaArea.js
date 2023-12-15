@@ -1,9 +1,7 @@
-let base = 5
+function calculaArea(base, altura) {
 
-let altura = 10
+    return base * altura;
+}
 
-const calculaArea = base * altura;
-
-calculaArea
-
-console.log(calculaArea)
+const resultado = calculaArea(5, 10);
+console.log("A área é:", resultado);
